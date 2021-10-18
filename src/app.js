@@ -60,8 +60,8 @@ function displayFahrenheitTemperature(event){
 function displayCelciusTemperature(event){
     event.preventDefault();
     let temperatureElement = document.querySelector("#temperature");
-    fahrenheitLink.classList.remove("active");
     celciusLink.classList.add("active");
+    fahrenheitLink.classList.remove("active");
     let celciusTemperature = Math.round(celciusTemperature);
 }
 
