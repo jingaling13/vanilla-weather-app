@@ -1,11 +1,11 @@
 
 body {
     font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
-    background-image: url(daniel-ramirez-q4TfWtnz_xw-unsplash.jpg);
+    background-image: url("https://images.unsplash.com/photo-1558486012-817176f84c6d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1804&q=80");
 }
 
 h1 {
-    color: black;
+    color: white;
     font-size: 24px;
     font-weight: 100;
     line-height: 28px;
@@ -21,7 +21,7 @@ li {
     list-style: none;
     margin: 0;
     padding: 0;
-    color: black;
+    color: grey;
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
@@ -31,7 +31,11 @@ li:first-letter {
     text-transform: capitalize;
 }
 
-
+a, a:visited {
+    color: white;
+    text-decoration: none;
+    
+}
 
 .weather-app-wrapper {
     max-width: 600px;
@@ -58,7 +62,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-    color: rgb(33, 33, 33);
+    color: darkgrey;
     font-size: 64px;
     line-height: 1;
     font-weight: 400;
@@ -71,7 +75,7 @@ li:first-letter {
 }
 
 .weather.temperature .active {
-    color: rgb(33, 33, 33);
+    color: grey;
     cursor: default;
 }
 
@@ -82,7 +86,7 @@ li:first-letter {
 .weather-forecast {
     margin-top: 20px;
     text-align: center;
-    color: #000;
+    color: white;
 }
 
 .weather-forecast-date {
@@ -98,5 +102,7 @@ li:first-letter {
 }
 
 .single-weather-container:hover {
-    background-color: blueviolet;
+    background-color: lightgrey;
 }
+
+
